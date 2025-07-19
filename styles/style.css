@@ -156,6 +156,12 @@ main > section{
     .our-features{
         margin-left: 20px;
     }
+    .facts-container{
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        /* gap: 24px; */
+        margin-left: 40px;
+    }
     
 }
 /* responsive for medium size devices */
@@ -165,6 +171,11 @@ main > section{
     }
     .our-features{
         margin: 50px auto;
+    }
+    .facts-container{
+         grid-template-columns: repeat(2,1fr);
+         justify-content: center;
+
     }
     
 }
