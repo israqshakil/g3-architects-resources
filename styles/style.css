@@ -213,7 +213,7 @@ main > section{
 /* footer section styles */
 .footer{
     max-width: 1440px;
-    height: 100px;
+    height: 150px;
     background-color: rgba(255, 244, 231, 1);
     text-align: center;
     justify-content: center;
@@ -221,7 +221,7 @@ main > section{
 }
 .footer-info{
     font-size: 1.5rem;
-    padding-top:35px;
+    padding:50px;
     /* margin: 50px auto; */
 }
 .foot-content{
